@@ -1,0 +1,10 @@
+DO $$
+    CREATE OR REPLACE FUNCTION quicktrades.notify_pkgpurchase()
+    RETURNS trigger
+    LANGUAGE plpgsql
+    BEGIN
+        PERFORM pg_notify('pkpurchase', row_to_json(NEW)::text);
+        RETURN NULL;
+    END
+    $FUNCTION$
+END $$

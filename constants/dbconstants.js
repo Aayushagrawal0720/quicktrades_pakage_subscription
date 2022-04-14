@@ -1,0 +1,45 @@
+module.exports= Object.freeze({
+    DB_MOBILE: 'mobile',
+    DB_FNAME: 'fname',
+    DB_LNAME:'lname',
+    DB_EMAIL: 'email',
+    DB_PHOTOURL: 'photourl',
+    DB_USERTYPE:'usertype',
+    DB_NOTITOKEN: "notitoken",
+    DB_WALLET: "wallet",
+    DB_ACCURACY: "accuracy",
+    DB_NEWUSER: 'new_user',
+    
+
+    //---------CALLS -----
+    DB_RECORD_TYPE: 'recordtype',
+    DB_SCRIPTNAME:'scriptname',
+    DB_SUBRECORDTYPE:'subrecordtype',
+    DB_ANALYSISIMAGEURL:'analysisimageurl',
+    DB_ANALYSISTITLE:'analysistitle',
+    DB_BUYSELL:'tradetype',
+    DB_DATE:'date',
+    DB_DESCIPTION:'description',
+    DB_ENTRYLTP:'entryltp',
+    DB_ENTRYPRICE:'entryprice',
+    DB_EXCHANGE:'exchange',
+    DB_INSTRUMENTTOKEN:'instrumenttoken',
+    DB_LTP:'ltp',
+    DB_STATUS:'status',
+    DB_SLPRICE:'slprice',
+    DB_SLPRICE2:'slprice2',
+    DB_TARGETVALUE:'targetprice',
+    DB_TARGETVALUE2:'targetprice2',
+    DB_TARGETVALUE3:'targetvalue3',
+    DB_TRADINGSYMBOL:'tradingsymbol',
+    DB_UID:'uid',
+
+    //-------------PACKAGES----------
+    DB_ONECALL:'One call',
+    DB_ONEDAY:'One day',
+    DB_ONEWEEK:'One week',
+    DB_ONEMONTH:'One month',
+    DB_THREEMONTHS:'Three months',
+    DB_SIXMONTHS:'Six months',
+    DB_ONEYEAR:'One year'
+});
